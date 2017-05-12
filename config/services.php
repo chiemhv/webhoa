@@ -34,5 +34,10 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
+    'facebook' => [
+    'client_id' => '136777930201056',
+    'client_secret' => '1db4de0c14dea789f60e4f59feaada77',
+    'redirect' => 'http://chiem/webhoa/uses',
+    ],
 
 ];

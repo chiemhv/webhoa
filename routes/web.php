@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::group(['prefix'=>'admin'], function(){
 	Route::get('', function(){
-		return view('admin.index');
+		return view('admin.layouts.home');
 	});
 	Route::group(['prefix'=>'cart'], function(){
 //		Route::get('add',['as'=>'admin.cate.getAdd', 'uses'=>'Controller']);
@@ -34,3 +34,11 @@ Route::group(['prefix'=>'uses'], function(){
 	});
 
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('auth/facebook', 'Auth\AuthController@redirectToFacebook')->name('auth.facebook');
+Route::get('auth/facebook/callback', 'Auth\AuthController@handleFacebookCallback');
+

@@ -6,14 +6,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title> @yield('title')</title>
-    <link href="{{ asset('layouts/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('layouts/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('layouts/css/prettyPhoto.css') }}" rel="stylesheet">
-    <link href="{{ asset('layouts/css/price-range.css') }}" rel="stylesheet">
-    <link href="{{ asset('layouts/css/animate.css') }}" rel="stylesheet">
-    <link href="{{ asset('layouts/css/main.css') }}" rel="stylesheet">
-    <link href="{{ asset('layouts/css/responsive.css') }}" rel="stylesheet">
-    <link rel="shortcut icon" href="{{ asset('layouts/images') }}/ico/favicon.ico">
+    <link href="{{ asset('public/layouts/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/layouts/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/layouts/css/prettyPhoto.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/layouts/css/price-range.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/layouts/css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/layouts/css/main.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/layouts/css/responsive.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ asset('public/layouts/images') }}/ico/favicon.ico">
 </head><!--/head-->
 
 <body>
@@ -36,11 +36,11 @@
     </section>
     @include("uses.layouts.elements.footer")
     <!--/Footer-->
-    <script src="{{ asset('layouts/js/jquery.js') }}"></script>
-    <script src="{{ asset('layouts/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('layouts/js/jquery.scrollUp.min.js') }}"></script>
-    <script src="{{ asset('layouts/js/price-range.js') }}"></script>
-    <script src="{{ asset('layouts/js/jquery.prettyPhoto.js') }}"></script>
-    <script src="{{ asset('layouts/js/main.js') }}"></script>
+    <script src="{{ asset('public/layouts/js/jquery.js') }}"></script>
+    <script src="{{ asset('public/public/public/public/public/layouts/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('public/public/public/public/layouts/js/jquery.scrollUp.min.js') }}"></script>
+    <script src="{{ asset('public/public/public/layouts/js/price-range.js') }}"></script>
+    <script src="{{ asset('public/public/layouts/js/jquery.prettyPhoto.js') }}"></script>
+    <script src="{{ asset('public/layouts/js/main.js') }}"></script>
 </body>
 </html>
